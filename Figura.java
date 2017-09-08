@@ -20,16 +20,20 @@ public class Figura
     /**
      * Calcula el area de cada figura.
      */
+    
     public void calculaArea()
     {
         System.out.println("no se puede calcular area por que no se de que figura es");
     }
     
     /**
-     * 
+     * imprime el valor del area.
      */
     public void imprimirArea()
     {
         System.out.println("el area de la figura es: "+area);
     }
+    
+    
+   
 }
