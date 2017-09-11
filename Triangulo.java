@@ -8,6 +8,7 @@ public class Triangulo extends Figura
     private float base;
     private float altura;
     
+    
     public Triangulo(float unaBase,float unaAltura)
     {
         base=unaBase;
@@ -17,6 +18,12 @@ public class Triangulo extends Figura
     @Override
     public void calculaArea()
     {
-        
+        area=(base*altura)/2;
+    }
+    
+    
+    public void calculaPeri(float cateOP,float cateAD,float hipo)
+    {
+        perimetro=cateOP+cateAD+hipo;
     }
 }
